@@ -1,10 +1,9 @@
 {
-    "name": "yiisoft/yii2-app-basic",
-    "description": "Yii 2 Basic Project Template",
-    "keywords": ["yii2", "framework", "basic", "project template"],
-    "homepage": "http://www.yiiframework.com/",
-    "type": "project",
-    "license": "BSD-3-Clause",
+    "name": "vibha/yii2-extension-sample",
+    "description": "Yii 2 Extension to Add",
+    "keywords": ["yii2", "extension", "add"],
+    "type": "yii2-extension",
+
     "support": {
         "issues": "https://github.com/yiisoft/yii2/issues?state=open",
         "forum": "http://www.yiiframework.com/forum/",
@@ -71,5 +70,19 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+
+    "authors": [
+        {
+            "name": "Vibha M J",
+            "email": "vibha248@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "yii\\extension-sample\\": ""
+        }
+    }
+    
 }

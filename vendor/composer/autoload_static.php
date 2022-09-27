@@ -31,6 +31,7 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
             'yii\\symfonymailer\\' => 18,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
+            'yii\\extension-sample\\' => 21,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap5\\' => 15,
@@ -112,6 +113,10 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
         'yii\\faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-faker/src',
+        ),
+        'yii\\extension-sample\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/',
         ),
         'yii\\debug\\' => 
         array (
@@ -219,8 +224,8 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\EventDispatcher\\' => 
         array (
@@ -268,8 +273,8 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
         ),
         'Codeception\\' => 
         array (
-            0 => __DIR__ . '/..' . '/codeception/stub/src',
-            1 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
+            0 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
+            1 => __DIR__ . '/..' . '/codeception/stub/src',
             2 => __DIR__ . '/..' . '/codeception/verify/src/Codeception',
         ),
     );
@@ -636,6 +641,7 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
         'PHPUnit\\Util\\Annotation\\DocBlock' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Annotation/DocBlock.php',
         'PHPUnit\\Util\\Annotation\\Registry' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Annotation/Registry.php',
         'PHPUnit\\Util\\Blacklist' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Blacklist.php',
+        'PHPUnit\\Util\\Cloner' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Cloner.php',
         'PHPUnit\\Util\\Color' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Color.php',
         'PHPUnit\\Util\\ErrorHandler' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/ErrorHandler.php',
         'PHPUnit\\Util\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Exception.php',
